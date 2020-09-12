@@ -1,11 +1,10 @@
-import 'dart:html';
-import 'dart:io';
-
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'dart:convert';
 import 'dart:async';
 import 'package:flutter_tutorial_es/model/Item.dart';
+import 'package:flutter_tutorial_es/detail_page.dart';
+import 'package:flutter_tutorial_es/items_search.dart';
 
 void main() {
   return runApp(App());
@@ -31,8 +30,9 @@ class _MyHomeState extends State<MyHome> {
   //Declaro el array
   List<Item> items = List<Item>();
 
-  Future <List<Item>> _getItems() async {
-    var response = json.decode(await rootBundle.loadString('assets/json/flutter.json'));
+  Future<List<Item>> _getItems() async {
+    var response =
+        json.decode(await rootBundle.loadString('assets/json/flutter.json'));
     var _items = List<Item>();
     for (var i in response) {
       _items.add(Item(i['title'], i['subtitle'], i['content']));
@@ -41,7 +41,7 @@ class _MyHomeState extends State<MyHome> {
   }
 
   @override
-  void initState(){
+  void initState() {
     _getItems().then((value) {
       setState(() {
         items.addAll(value);
@@ -54,9 +54,15 @@ class _MyHomeState extends State<MyHome> {
     return Scaffold(
       appBar: AppBar(
         title: Text('Tutorial Flutter ES'),
+        actions: [
+          IconButton(
+              icon: Icon(Icons.search),
+              onPressed: () =>
+                  showSearch(context: context, delegate: DataSearch(items)))
+        ],
       ),
       body: ListView.builder(
-          itemBuilder: (context, index){
+          itemBuilder: (context, index) {
             return _listItem(index);
           },
           itemCount: items.length),
@@ -69,7 +75,7 @@ class _MyHomeState extends State<MyHome> {
         padding: const EdgeInsets.all(5.0),
         child: ListTile(
           leading: FlutterLogo(
-            size: 55.0,
+            size: 60.0,
           ),
           title: Text(items[index].title),
           subtitle: Text(items[index].subtitle),
@@ -84,17 +90,3 @@ class _MyHomeState extends State<MyHome> {
     );
   }
 }
-
-class DetailPage extends StatelessWidget {
-  final Item item;
-  const DetailPage({Key key, this.item}) : super(key: key);
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text('Detalle'),
-      ),
-    );
-  }
-}
-
