@@ -1,78 +1,112 @@
 [
     {
         "title": "1. Instalación",
-        "subtitle": "Introduccion"
+        "subtitle": "Introduccion",
+        "content": ""
     },
     {
         "title": "2. Configura un editor",
-        "subtitle": "Introduccion"
+        "subtitle": "Introduccion",
+        "content":  ""
     },    
     {
         "title": "3. Test inicial",
-        "subtitle": "Introduccion"
+        "subtitle": "Introduccion",
+        "content":  ""
     },
     {
         "title": "4. Escribe tu primera app",
-        "subtitle": "Introduccion"
+        "subtitle": "Introduccion",
+        "content":  ""
     },
     {
         "title": "5. Aprende más",
-        "subtitle": "Introduccion"
+        "subtitle": "Introduccion",
+        "content":  ""
     },
     {
-        "title": "2. Configura un editor",
-        "subtitle": "Introduccion"
+        "title": "5.1. Flutter para Android devs",
+        "subtitle": "Introduccion",
+        "content":  ""
     },
     {
-        "title": "2. Configura un editor",
-        "subtitle": "Introduccion"
+        "title": "5.2 Flutter para iOS devs",
+        "subtitle": "Introduccion",
+        "content":  ""
     },
     {
-        "title": "2. Configura un editor",
-        "subtitle": "Introduccion"
+        "title": "5.3 Flutter para React Native devs",
+        "subtitle": "Introduccion",
+        "content":  ""
     },
     {
-        "title": "2. Configura un editor",
-        "subtitle": "Introduccion"
+        "title": "5.4 Flutter para web devs",
+        "subtitle": "Introduccion",
+        "content":  ""
     },
     {
-        "title": "2. Configura un editor",
-        "subtitle": "Introduccion"
+        "title": "5.5 Flutter para Xamarin.Forms devs",
+        "subtitle": "Introduccion",
+        "content":  ""
     },
     {
-        "title": "2. Configura un editor",
-        "subtitle": "Introduccion"
+        "title": "6 Introducción a los Widgets",
+        "subtitle": "Interfaz de Usuario",
+        "content":  ""
     },
     {
-        "title": "2. Configura un editor",
-        "subtitle": "Introduccion"
+        "title": "6.1 Layouts en Flutter",
+        "subtitle": "Interfaz de Usuario",
+        "content":  ""
     },
     {
-        "title": "2. Configura un editor",
-        "subtitle": "Introduccion"
+        "title": "6.2 Tutorial de layout",
+        "subtitle": "Interfaz de Usuario",
+        "content":  ""
     },
     {
-        "title": "2. Configura un editor",
-        "subtitle": "Introduccion"
+        "title": "6.3 Box constraints",
+        "subtitle": "Interfaz de Usuario",
+        "content":  ""
     },
     {
-        "title": "2. Configura un editor",
-        "subtitle": "Introduccion"
+        "title": "6.4 Añade Interactividad a Tu App Flutter",
+        "subtitle": "Interfaz de Usuario",
+        "content":  ""
     },
     {
-        "title": "2. Configura un editor",
-        "subtitle": "Introduccion"
+        "title": "6.5 Assets e imagenes",
+        "subtitle": "Interfaz de Usuario",
+        "content":  ""
     },
     {
-        "title": "2. Configura un editor",
-        "subtitle": "Introduccion"
+        "title": "6.6 Navegación & enrutado",
+        "subtitle": "Interfaz de Usuario",
+        "content":  ""
     },
     {
-        "title": "2. Configura un editor",
-        "subtitle": "Introduccion"
+        "title": "6.7 animaciones - Introduccion",
+        "subtitle": "Interfaz de Usuario",
+        "content":  ""
     },
     {
-        "title": "2. Configura un editor",
-        "subtitle": "Introduccion"
+        "title": "6.8 Visión general de animaciones",
+        "subtitle": "Interfaz de Usuario",
+        "content":  ""
+    },
+    {
+        "title": "6.9 Slivers y Gestos - UI avanzado",
+        "subtitle": "Interfaz de Usuario",
+        "content":  ""
+    },
+    {
+        "title": "6.8 Visión general de animaciones",
+        "subtitle": "Interfaz de Usuario",
+        "content":  ""
+    },
+    {
+        "title": "6.8 Visión general de animaciones",
+        "subtitle": "Interfaz de Usuario",
+        "content":  ""
     }
 ]
