@@ -11,7 +11,7 @@ class DetailPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Detalle'),
+        title: Text(item.title),
       ),
       body: ListView(
         children: <Widget>[
