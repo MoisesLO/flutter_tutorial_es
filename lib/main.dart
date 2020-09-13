@@ -53,7 +53,7 @@ class _MyHomeState extends State<MyHome> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Tutorial Flutter ES'),
+        title: Text('Documentacion Flutter ES'),
         actions: [
           IconButton(
               icon: Icon(Icons.search),
